@@ -40,6 +40,8 @@ To create a production build:
 
 The build files will be created in the build directory.
 
-##Problems
+## Problems
 
 Currently getting an error at the imports on the tests since I changed from the basic API to the live one.
+
+Since using the LiveCurrencyExchange API, there is an error by swapping the currencies.
