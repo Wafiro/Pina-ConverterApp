@@ -100,20 +100,22 @@ input:focus, select:focus {
 
 .swap-button {
   background-color: #f0f0f0;
-  border: none;
+  border: 2px solid #ddd;
   border-radius: 50%;
   width: 50px;
-  height: 50px; 
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 24px;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .swap-button:hover {
   background-color: #e0e0e0;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .convert-button {
@@ -121,17 +123,20 @@ input:focus, select:focus {
   padding: 16px;
   background-color: #16ad2f;
   color: white;
-  border: none;
+  border: 2px solid #12822d;
   border-radius: 6px;
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .convert-button:hover {
   background-color: #108122;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
+
 
 .result {
   margin-top: 30px;
