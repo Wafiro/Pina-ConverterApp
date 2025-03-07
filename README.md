@@ -39,3 +39,7 @@ To create a production build:
 `npm run build`
 
 The build files will be created in the build directory.
+
+##Problems
+
+Currently getting an error at the imports on the tests since I changed from the basic API to the live one.
