@@ -7,7 +7,7 @@ A client-side currency converter built with React that converts between Euro (EU
 ## Features
 
 - Convert between EUR, USD, and JPY in all directions
-- Fetches real-time exchange rates from [ExchangeRate-API](https://www.exchangerate-api.com/)
+- Fetches real-time exchange rates from [ExchangeRates](https://exchangeratesapi.io/)
 - Form validation for user inputs
 - Visual feedback for loading states and errors
 
