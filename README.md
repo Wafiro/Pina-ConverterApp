@@ -1,40 +1,41 @@
 # Pina-ConverterApp
 
-Currency Converter
+## Currency Converter
+
 A client-side currency converter built with React that converts between Euro (EUR), US Dollar (USD), and Japanese Yen (JPY).
-Features
 
-Convert between EUR, USD, and JPY in all directions
-Fetches real-time exchange rates from ExchangeRate-API
-Form validation for user inputs
-Responsive design for both mobile and desktop
-Swap currency functionality
-Visual feedback for loading states and errors
+## Features
 
-Requirements
+- Convert between EUR, USD, and JPY in all directions
+- Fetches real-time exchange rates from [ExchangeRate-API](https://www.exchangerate-api.com/)
+- Form validation for user inputs
+- Visual feedback for loading states and errors
 
-Node.js 14+ and npm 6+
+## Requirements
 
-Installation
+- Node.js 14+ 
+- npm 6+
 
-1) Clone the repository
+## Installation
 
-2) Install dependencies:
+1. Clone the repository
 
- npm install
+2. Install dependencies:
 
-Running the Application
+ `npm install`
+
+## Running the Application
 
 To start the development server:
 
-npm start
+`npm start`
 
 The application will be available at http://localhost:3000.
 
-Building for Production
+## Building for Production
 
 To create a production build:
 
-npm run build
+`npm run build`
 
 The build files will be created in the build directory.
